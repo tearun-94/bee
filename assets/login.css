@@ -1,0 +1,11 @@
+body{
+    display: flex;
+    height: 100vh;
+}
+section{
+    width: 350px;
+    padding: 50px 30px;
+    background: #47d6ff;
+    margin: auto;
+    color: white;
+}

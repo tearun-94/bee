@@ -1,0 +1,31 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: cornsilk;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-areas:
+            "header header"
+            "section menu"
+            "footer footer";
+}
+header{
+    grid-area: header;
+    min-height: 100px;
+    background: aliceblue;
+}
+aside{
+    grid-area: menu;
+    min-height: 200px;
+    background: #d6d6d6;
+    padding: 20px 30px;
+}
+section{
+    grid-area: section;
+    background: aliceblue;
+}
+footer{
+    grid-area: footer;
+    min-height: 30px;
+    background: darkgray;
+}
